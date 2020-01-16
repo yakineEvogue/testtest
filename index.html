@@ -27,14 +27,30 @@
     Ajouter un fichier  : <div class="cmd">git add 'fichier'</div>
     Ajouter tous les fichiers  : <div class="cmd">git add .</div>
     Commit les fichiers ajouté  : <div class="cmd">git commit</div>
-    <div class="warning">Attention, un commit necessite forcémentun message</div>
+    <div class="warning">un commit necessite forcémentun message</div>
     Commit avec le message  : <div class="cmd">git commit -m "message"</div>
     Commit + add + message (quand le fichier a déjà été ajouté une fois)  : <div class="cmd">git commit -a -m "message"</div>
 
+    <h2>Correction de fichier</h2>
+    Corriger les modification  : <div class="cmd">git checkout 'fichier'</div>
+    Retirer le fichier du add  : <div class="cmd">git reset 'fichier'</div>
+    Supprimer le dernier commit <div class="cmd">git reset HEAD^</div>
+    Supprimer les deux derniers commit <div class="cmd">git reset HEAD^^</div>
 
     <h2>La notion de Branches</h2>
+    Voir les branches  : <div class="cmd">git branch</div>
+    Créer une branche  : <div class="cmd">git branch 'nom'</div>
+    Selection une branche : <div class="cmd">git checkout 'nom'</div>
+    Merger une branche (dans master) :  <div class="cmd">git merge 'nom'</div>
+    <div class="warning">Conflit de branche</div>
+    Différence entre deux branches : <div class="cmd">git diff nom..master</div>
+    Mettre le contenu d'une branche dans master :  <div class="cmd">git fetch . nom</div>
 
     <h2>Repertoire distant : GitHub</h2>
+
+    <h2>Ignorer des fichiers dans le versionning</h2>
+
+    <h2>Exercice Pratique</h2>
 
   </body>
 </html>
