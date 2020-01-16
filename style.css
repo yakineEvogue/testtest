@@ -17,7 +17,7 @@
   background: pink;
   margin: 10px;
   border: 1px solid red;
-  border-radius: 3px
+  border-radius: 3px;
 }
 
 .warning:before{
